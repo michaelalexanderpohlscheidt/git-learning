@@ -36,6 +36,9 @@ With the commit you create a snapshotof your project. You using commits to creat
 Uploading your changes to the repository.
 #### Commands
 	git push
+
+	// If your git branch has no upstream branch then use 
+	git push --set-upstream origin add-information
 # git checkout
 With checkout you can switch to other branches or creating them.
 #### Commands
