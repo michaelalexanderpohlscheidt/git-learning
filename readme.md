@@ -9,6 +9,9 @@ Clone a respository from a source
     git clone <repository URL>
 
 # git pull
+Downloading changes from repository and merge it.
+#### Commands
+	git pull
 # git add
 Bookmark a file for your commit.
 #### Commands
@@ -30,4 +33,11 @@ With the commit you create a snapshotof your project. You using commits to creat
 2. Add new UI
 3. Add calculation tax feature
 # git push
+Uploading your changes to the repository.
+#### Commands
+	git push
 # git checkout
+With checkout you can switch to other branches or creating them.
+#### Commands
+	git checkout <branch-name> // switch to the other branch
+	git checkout -b <branch-name> // create a branch and switch to them
