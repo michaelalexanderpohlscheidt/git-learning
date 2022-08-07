@@ -41,3 +41,18 @@ With checkout you can switch to other branches or creating them.
 #### Commands
 	git checkout <branch-name> // switch to the other branch
 	git checkout -b <branch-name> // create a branch and switch to them
+# git branch
+You can create, delete or list all branches.
+#### Commands
+	git branch <branch-name> // create a new branch
+	git branch // list all branches
+	git branch -d <branch-name> // delete a branch
+
+	// Provides more information about all your branches
+	// By default will only show locak branches
+	// Flag -a : Remote branches will includes in the list
+	// Flag -v : Make command more "verbose" (add hash and last commit message)
+	git branch -a -v
+
+	// To show all branches that not been merged into your current HEAD branch
+	git branch --no-merged
